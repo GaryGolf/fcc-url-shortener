@@ -3,7 +3,7 @@ const express = require('express')
 
 const app = express()
 
-app.set('port', process.env.PORT || 8080)
+app.set('port', (process.env.PORT || 8080))
 
 app.get('/new/:url', (req, res) => {
 
@@ -11,6 +11,6 @@ app.get('/new/:url', (req, res) => {
 })
 
 const port = app.get('port')
-http.createServer(app).listen(8080, () => {
+http.createServer(app).listen(port, () => {
     console.log('http server starts on port 8080')
 })
