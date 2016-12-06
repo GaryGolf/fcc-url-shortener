@@ -1,0 +1,23 @@
+{
+  "name": "fcc-url-shortener",
+  "version": "1.0.0",
+  "description": "free code camp project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaryGolf/fcc-url-shortener.git"
+  },
+  "author": "garygolf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaryGolf/fcc-url-shortener/issues"
+  },
+  "homepage": "https://github.com/GaryGolf/fcc-url-shortener#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
